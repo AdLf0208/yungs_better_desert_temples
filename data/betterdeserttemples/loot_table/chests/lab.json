@@ -1,0 +1,185 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": 1,
+              "type": "minecraft:set_count"
+            },
+            {
+              "components": {
+                "potion_contents": "minecraft:water"
+              },
+              "type": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:potion",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fermented_spider_eye",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_slice",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glistering_melon_slice",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "minecraft:rabbit_foot",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 8.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 8.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder",
+          "type": "minecraft:item",
+          "weight": 6
+        }
+      ],
+      "rolls": {
+        "max": 5.0,
+        "min": 3.0,
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "count": {
+                "max": 6.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "count": {
+                "max": 4.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "modifier": [
+            {
+              "count": {
+                "max": 6.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobweb",
+          "type": "minecraft:item",
+          "weight": 10
+        }
+      ],
+      "rolls": 4
+    }
+  ],
+  "type": "minecraft:chest"
+}

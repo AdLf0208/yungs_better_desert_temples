@@ -1,0 +1,698 @@
+{
+  "processors": [
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:polished_diorite",
+      "picks": [
+        {
+          "below": 0.6,
+          "state": {
+            "id": "minecraft:cut_sandstone"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:diorite",
+      "picks": [
+        {
+          "below": 0.25,
+          "state": {
+            "id": "minecraft:cut_sandstone"
+          }
+        },
+        {
+          "below": 0.5,
+          "state": {
+            "id": "minecraft:sandstone_slab"
+          }
+        },
+        {
+          "below": 0.75,
+          "state": {
+            "id": "minecraft:sand"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:sponge",
+      "picks": [
+        {
+          "below": 0.8,
+          "state": {
+            "id": "minecraft:candle",
+            "properties": {
+              "candles": "1",
+              "lit": "false"
+            }
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:air"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:end_stone_brick_wall",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone_wall"
+        }
+      },
+      "keep_properties": true
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:white_stained_glass",
+      "picks": [
+        {
+          "below": 0.4,
+          "state": {
+            "id": "minecraft:cobweb"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:air"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:purpur_pillar",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone_wall",
+          "properties": {
+            "up": "true",
+            "east": "none",
+            "west": "none",
+            "north": "none",
+            "south": "none",
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:quartz_pillar",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:acacia_wood",
+      "picks": [
+        {
+          "below": 0.1,
+          "state": {
+            "id": "minecraft:sandstone_slab",
+            "properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "below": 0.2,
+          "state": {
+            "id": "minecraft:sandstone_slab",
+            "properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "below": 0.225,
+          "state": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight"
+            }
+          }
+        },
+        {
+          "below": 0.25,
+          "state": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight"
+            }
+          }
+        },
+        {
+          "below": 0.275,
+          "state": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight"
+            }
+          }
+        },
+        {
+          "below": 0.3,
+          "state": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight"
+            }
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:infested_cracked_stone_bricks"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "id": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "append_static",
+            "data": {
+              "Delay": 20,
+              "MinSpawnDelay": 200,
+              "MaxSpawnDelay": 800,
+              "SpawnCount": 4,
+              "MaxNearbyEntities": 6,
+              "RequiredPlayerRange": 24,
+              "SpawnRange": 4,
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:silverfish"
+                }
+              },
+              "SpawnPotentials": [
+                {
+                  "data": {
+                    "entity": {
+                      "id": "minecraft:silverfish"
+                    }
+                  },
+                  "weight": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:bone_block"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "id": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "append_static",
+            "data": {
+              "Delay": 20,
+              "MinSpawnDelay": 200,
+              "MaxSpawnDelay": 800,
+              "SpawnCount": 4,
+              "MaxNearbyEntities": 6,
+              "RequiredPlayerRange": 32,
+              "SpawnRange": 4,
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:skeleton",
+                  "HandItems": []
+                }
+              },
+              "SpawnPotentials": [
+                {
+                  "data": {
+                    "entity": {
+                      "id": "minecraft:skeleton",
+                      "HandItems": []
+                    }
+                  },
+                  "weight": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:yellow_wool"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "id": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "append_static",
+            "data": {
+              "Delay": 20,
+              "MinSpawnDelay": 200,
+              "MaxSpawnDelay": 800,
+              "SpawnCount": 4,
+              "MaxNearbyEntities": 8,
+              "RequiredPlayerRange": 24,
+              "SpawnRange": 4,
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:husk",
+                  "HandItems": [
+                    {
+                      "id": "minecraft:golden_sword"
+                    },
+                    {
+                      "id": "minecraft:shield"
+                    },
+                    {}
+                  ],
+                  "ArmorItems": [
+                    {
+                      "id": "minecraft:leather_boots"
+                    },
+                    {
+                      "id": "minecraft:leather_leggings"
+                    },
+                    {
+                      "id": "minecraft:golden_chestplate"
+                    },
+                    {
+                      "id": "minecraft:chainmail_helmet"
+                    }
+                  ]
+                }
+              },
+              "SpawnPotentials": [
+                {
+                  "data": {
+                    "entity": {
+                      "id": "minecraft:husk",
+                      "HandItems": [
+                        {
+                          "id": "minecraft:golden_sword"
+                        },
+                        {
+                          "id": "minecraft:shield"
+                        },
+                        {}
+                      ],
+                      "ArmorItems": [
+                        {
+                          "id": "minecraft:leather_boots"
+                        },
+                        {
+                          "id": "minecraft:leather_leggings"
+                        },
+                        {
+                          "id": "minecraft:golden_chestplate"
+                        },
+                        {
+                          "id": "minecraft:chainmail_helmet"
+                        }
+                      ]
+                    }
+                  },
+                  "weight": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:yellow_concrete",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:yellow_terracotta"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:blue_concrete",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:blue_terracotta"
+        }
+      }
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:gravel"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "id": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "append_static",
+            "data": {
+              "Delay": 20,
+              "MinSpawnDelay": 200,
+              "MaxSpawnDelay": 800,
+              "SpawnCount": 4,
+              "MaxNearbyEntities": 8,
+              "RequiredPlayerRange": 24,
+              "SpawnRange": 4,
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:husk"
+                }
+              },
+              "SpawnPotentials": [
+                {
+                  "data": {
+                    "entity": {
+                      "id": "minecraft:husk"
+                    }
+                  },
+                  "weight": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:torch",
+      "picks": [
+        {
+          "below": 0.95,
+          "state": {
+            "id": "minecraft:air"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:torch"
+        }
+      },
+      "keep_properties": true
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:wall_torch",
+      "picks": [
+        {
+          "below": 0.95,
+          "state": {
+            "id": "minecraft:air"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:wall_torch"
+        }
+      },
+      "keep_properties": true
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:campfire",
+      "picks": [
+        {
+          "below": 0.75,
+          "state": {
+            "id": "minecraft:campfire",
+            "properties": {
+              "lit": "false"
+            }
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:campfire",
+          "properties": {
+            "lit": "true"
+          }
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:yellow_stained_glass",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:orange_stained_glass",
+      "picks": [
+        {
+          "below": 0.01,
+          "state": {
+            "id": "minecraft:suspicious_sand"
+          },
+          "nbt": {
+            "LootTable": "minecraft:archaeology/desert_pyramid"
+          }
+        },
+        {
+          "below": 0.1,
+          "state": {
+            "id": "minecraft:sand"
+          }
+        },
+        {
+          "below": 0.2,
+          "state": {
+            "id": "minecraft:sandstone"
+          }
+        },
+        {
+          "below": 0.45,
+          "states": [
+            {
+              "id": "minecraft:sandstone_stairs",
+              "properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "straight"
+              }
+            },
+            {
+              "id": "minecraft:sandstone_stairs",
+              "properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "straight"
+              }
+            },
+            {
+              "id": "minecraft:sandstone_stairs",
+              "properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "straight"
+              }
+            },
+            {
+              "id": "minecraft:sandstone_stairs",
+              "properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "straight"
+              }
+            }
+          ]
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:cut_sandstone"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:red_stained_glass",
+      "picks": [
+        {
+          "below": 0.3,
+          "state": {
+            "id": "minecraft:sand"
+          }
+        },
+        {
+          "below": 0.75,
+          "state": {
+            "id": "minecraft:sandstone"
+          }
+        }
+      ],
+      "default": {
+        "states": [
+          {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight"
+            }
+          },
+          {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight"
+            }
+          },
+          {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight"
+            }
+          },
+          {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:red_wool",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:tnt"
+        }
+      }
+    },
+    {
+      "processor_type": "horizon:pick",
+      "block": "minecraft:decorated_pot",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:decorated_pot"
+        },
+        "lists": [
+          {
+            "key": "sherds",
+            "count": 4,
+            "values": [
+              {
+                "below": 0.05,
+                "value": "minecraft:archer_pottery_sherd"
+              },
+              {
+                "below": 0.1,
+                "value": "minecraft:miner_pottery_sherd"
+              },
+              {
+                "below": 0.15,
+                "value": "minecraft:prize_pottery_sherd"
+              },
+              {
+                "below": 0.2,
+                "value": "minecraft:skull_pottery_sherd"
+              }
+            ],
+            "default": "minecraft:brick"
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:tinted_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "id": "minecraft:sandstone"
+          }
+        }
+      ]
+    }
+  ]
+}

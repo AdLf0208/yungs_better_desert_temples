@@ -1,0 +1,83 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_0",
+        "max_count": 1,
+        "name": "parkour_bottom_0",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_1",
+        "max_count": 1,
+        "name": "parkour_bottom_1",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_2",
+        "max_count": 1,
+        "name": "parkour_bottom_2",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_3",
+        "max_count": 1,
+        "name": "parkour_bottom_3",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_4",
+        "max_count": 1,
+        "name": "parkour_bottom_4",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_5",
+        "max_count": 1,
+        "name": "parkour_bottom_5",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_bottom_6",
+        "max_count": 1,
+        "name": "parkour_bottom_6",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterdeserttemples:parkour_bottom"
+}

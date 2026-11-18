@@ -1,0 +1,79 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:rooms/room_empty",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 40
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:rooms/room_filled",
+        "max_count": 4,
+        "name": "room_filled",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:rooms/room_pillar",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:rooms/room_tomb_0",
+        "max_count": 4,
+        "name": "room_tomb",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:rooms/room_tomb_1",
+        "max_count": 4,
+        "name": "room_tomb",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:rooms/room_tomb_2",
+        "max_count": 4,
+        "name": "room_tomb",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:rooms/room_tomb_3",
+        "max_count": 4,
+        "name": "room_tomb",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterdeserttemples:room"
+}

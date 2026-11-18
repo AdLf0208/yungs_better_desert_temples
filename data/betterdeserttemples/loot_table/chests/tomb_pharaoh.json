@@ -1,0 +1,203 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 8.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 6.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 6.0,
+                "min": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "options": [
+                "vanishing_curse"
+              ],
+              "type": "minecraft:enchant_randomly"
+            },
+            {
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:golden_sword",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:enchanted_golden_apple",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:diamond_horse_armor",
+          "type": "minecraft:item",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "max": 4.0,
+        "min": 3.0,
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone",
+          "type": "minecraft:item",
+          "weight": 15
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone_meal",
+          "type": "minecraft:item",
+          "weight": 15
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 8.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sand",
+          "type": "minecraft:item",
+          "weight": 5
+        }
+      ],
+      "rolls": 4
+    }
+  ],
+  "type": "minecraft:chest"
+}
