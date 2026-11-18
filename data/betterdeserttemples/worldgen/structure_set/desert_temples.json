@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "betterdeserttemples:desert_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 92746251,
+    "spacing": 30,
+    "separation": 20,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "minecraft:villages"
+    },
+    "horizon:avoid_biomes": {
+      "biomes": [
+        "#minecraft:is_river",
+        "#minecraft:is_ocean"
+      ],
+      "radius": 48,
+      "step": 2,
+      "y": 120
+    }
+  }
+}

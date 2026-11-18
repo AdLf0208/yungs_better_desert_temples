@@ -1,0 +1,207 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_empty",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_1",
+        "max_count": 1,
+        "name": "hall_room_5x5_1",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_4",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_9",
+        "max_count": 1,
+        "name": "hall_room_5x5_9",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_10",
+        "max_count": 2,
+        "name": "hall_room_5x5_clay_pots",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_11",
+        "max_count": 2,
+        "name": "hall_room_5x5_clay_pots",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_12",
+        "max_count": 2,
+        "name": "hall_room_5x5_scaffolding",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_13",
+        "max_count": 2,
+        "name": "hall_room_5x5_scaffolding",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_14",
+        "max_count": 2,
+        "name": "hall_room_5x5_gold_ore",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_24",
+        "max_count": 2,
+        "name": "hall_room_5x5_storage_small",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_25",
+        "max_count": 2,
+        "name": "hall_room_5x5_wardrobe_small",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_26",
+        "max_count": 2,
+        "name": "hall_room_5x5_storage_small",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_28",
+        "max_count": 2,
+        "name": "hall_room_5x5_library_small",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_29",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_30",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_31",
+        "max_count": 1,
+        "name": "desert_well_hall_room",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_34",
+        "max_count": 6,
+        "name": "hall_room_5x5_crushed_corridor",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_35",
+        "max_count": 6,
+        "name": "hall_room_5x5_crushed_corridor",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/5x5/hall_room_5x5_36",
+        "max_count": 6,
+        "name": "hall_room_5x5_crushed_corridor",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterdeserttemples:hall_room_straight_and_right"
+}

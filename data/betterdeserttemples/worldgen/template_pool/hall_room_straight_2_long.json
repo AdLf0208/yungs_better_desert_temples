@@ -1,0 +1,93 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_0",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_1",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_2",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_3",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_4",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "betterdeserttemples:hall_room/parkour/parkour_top_5",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/water_maze/water_maze_0",
+        "max_count": 1,
+        "name": "water_maze",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/water_maze/water_maze_1",
+        "max_count": 1,
+        "name": "water_maze",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:hall_room/water_maze/water_maze_2",
+        "max_count": 1,
+        "name": "water_maze",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterdeserttemples:hall_room_straight_2_long"
+}

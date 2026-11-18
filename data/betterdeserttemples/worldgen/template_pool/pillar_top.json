@@ -1,0 +1,105 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_0",
+        "max_count": 1,
+        "name": "pillar_top_0",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_1",
+        "max_count": 1,
+        "name": "pillar_top_1",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_2",
+        "max_count": 1,
+        "name": "pillar_top_2",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_3",
+        "max_count": 1,
+        "name": "pillar_top_3",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_4",
+        "max_count": 1,
+        "name": "pillar_top_4",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_5",
+        "max_count": 1,
+        "name": "pillar_top_5",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_6",
+        "max_count": 1,
+        "name": "pillar_top_6",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_7",
+        "max_count": 1,
+        "name": "pillar_top_7",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterdeserttemples:pillars/pillar_top_8",
+        "max_count": 1,
+        "name": "pillar_top_8",
+        "processors": "betterdeserttemples:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterdeserttemples:pillar_top"
+}
